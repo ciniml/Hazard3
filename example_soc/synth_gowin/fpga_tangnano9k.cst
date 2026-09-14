@@ -6,7 +6,7 @@ IO_PORT "clk_osc" IO_TYPE=LVCMOS33;
 
 // Button S2 (active-low, used as system reset)
 IO_LOC "btn" 3;
-IO_PORT "btn" IO_TYPE=LVCMOS33;
+IO_PORT "btn" IO_TYPE=LVCMOS18;
 
 // 6 on-board LEDs (active-low, 1.8 V I/O domain)
 IO_LOC "led[0]" 10;
